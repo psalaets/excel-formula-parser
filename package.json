@@ -1,0 +1,21 @@
+{
+  "name": "excel-formula-parser",
+  "version": "1.0.0",
+  "description": "Parse excel formula into a tree",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["excel", "formula", "parse", "parser"],
+  "author": "Paul Salaets <psalaets@gmail.com>",
+  "homepage": "https://github.com/psalaets/excel-formula-parser",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/psalaets/excel-formula-parser.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "excel-formula-ast": "^1.0.0",
+    "excel-formula-tokenizer": "^2.0.1"
+  }
+}
