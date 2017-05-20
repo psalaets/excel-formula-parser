@@ -12,4 +12,4 @@ const tree = parse('SUM(1, 2)');
 visit(tree, visitor);
 ```
 
-See [psalaets/excel-formula-ast](https://github.com/psalaets/excel-formula-ast) for details on `visitor` object.
+See [excel-formula-ast](https://github.com/psalaets/excel-formula-ast) for details on `visitor` object.
