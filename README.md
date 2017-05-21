@@ -26,11 +26,16 @@ visit(tree, visitor);
 
 Parse a formula into an expression tree.
 
+- formula: string - Excel formula
+
+Returns: [ast node](https://github.com/psalaets/excel-formula-ast)
+
 ### visit(tree, visitor)
 
 Visit nodes of the tree.
 
-See docs for [excel-formula-ast](https://github.com/psalaets/excel-formula-ast#visittree-visitor).
+- tree: [ast node](https://github.com/psalaets/excel-formula-ast)
+- visitor: object - See [excel-formula-ast visitor](https://github.com/psalaets/excel-formula-ast#visittree-visitor).
 
 ## License
 
