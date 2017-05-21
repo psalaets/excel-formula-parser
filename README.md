@@ -28,13 +28,13 @@ Parse a formula into an expression tree.
 
 - formula: string - Excel formula
 
-Returns: [ast node](https://github.com/psalaets/excel-formula-ast)
+Returns: [ast node](https://github.com/psalaets/excel-formula-ast#node-types)
 
 ### visit(tree, visitor)
 
 Visit nodes of the tree.
 
-- tree: [ast node](https://github.com/psalaets/excel-formula-ast)
+- tree: [ast node](https://github.com/psalaets/excel-formula-ast#node-types)
 - visitor: object - See [excel-formula-ast visitor](https://github.com/psalaets/excel-formula-ast#visittree-visitor).
 
 ## License
