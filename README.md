@@ -22,6 +22,10 @@ visit(tree, visitor);
 
 ## API
 
+```js
+const {parse, visit} = require('excel-formula-parser');
+```
+
 ### parse(formula)
 
 Parse a formula into an expression tree.
