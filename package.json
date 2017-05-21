@@ -1,6 +1,6 @@
 {
   "name": "excel-formula-parser",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Parse excel formula into a tree",
   "main": "index.js",
   "scripts": {
