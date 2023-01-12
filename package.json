@@ -26,6 +26,6 @@
     "excel-formula-tokenizer": "^2.3.1"
   },
   "devDependencies": {
-    "mocha": "^3.4.1"
+    "mocha": "^10.2.0"
   }
 }
