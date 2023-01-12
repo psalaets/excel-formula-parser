@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.1.0] - 2020-01-11
+
+### Added
+
+- TypeScript support
+
 ## [1.0.3] - 2020-04-29
 
 ### Changed

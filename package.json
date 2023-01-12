@@ -4,7 +4,9 @@
   "description": "Parse excel formula into a tree",
   "main": "index.js",
   "scripts": {
-    "test": "mocha test.js"
+    "test": "mocha test.js",
+    "preversion": "npm run test",
+    "postversion": "git push --tags && npm publish && git push && echo \"Successfully released version $npm_package_version!\""
   },
   "keywords": [
     "excel",
