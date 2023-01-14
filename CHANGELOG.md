@@ -6,7 +6,7 @@ All notable changes to this project will be documented in this file.
 
 ### Added
 
-- TypeScript support
+- TypeScript support (Thanks [@jvatic](https://github.com/jvatic))
 
 ## [1.0.3] - 2020-04-29
 
